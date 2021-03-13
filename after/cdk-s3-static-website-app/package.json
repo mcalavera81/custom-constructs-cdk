@@ -1,0 +1,28 @@
+{
+  "name": "cdk-s3-static-website-app",
+  "version": "0.1.0",
+  "bin": {
+    "cdk-s3-static-website-app": "bin/cdk-s3-static-website-app.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "@aws-cdk/assert": "1.67.0",
+    "@types/jest": "^26.0.14",
+    "@types/node": "14.11.7",
+    "jest": "^26.5.2",
+    "ts-jest": "^26.4.1",
+    "aws-cdk": "1.67.0",
+    "ts-node": "^9.0.0",
+    "typescript": "~4.0.3"
+  },
+  "dependencies": {
+    "@aws-cdk/core": "1.67.0",
+    "@blndspt/cdk-s3-static-website": "^0.8.0",
+    "source-map-support": "^0.5.19"
+  }
+}
